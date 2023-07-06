@@ -1,4 +1,4 @@
-import useHubSpot from 'react-use-hubspot'
+import useHubSpot from '@skyhooks/react-use-hubspot'
 import './App.css'
 
 function App() {

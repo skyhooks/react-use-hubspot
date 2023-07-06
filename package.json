@@ -1,5 +1,5 @@
 {
-  "name": "react-use-hubspot",
+  "name": "@skyhooks/react-use-hubspot",
   "version": "1.0.0",
   "main": "dist/index.d.ts",
   "repository": "https://github.com/skyhooks/react-use-hubspot.git",
