@@ -1,14 +1,18 @@
 {
-  "compilerOptions": { 
-    "target": "es6", 
-    "module": "commonjs",
-    "strict": true, 
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "ESNext",
+    "allowJs": false,
+    "strict": true,
     "declaration": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "Node"
   },
   "exclude": [
-      "example",
-      "dist",
-      "node_modules"
+    "example",
+    "dist",
+    "node_modules"
   ]
 }

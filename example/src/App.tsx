@@ -1,15 +1,19 @@
 import useHubSpot from 'react-use-hubspot'
 import './App.css'
 
-
 function App() {
 
-  const hubSpot = useHubSpot({ portalId: "<PORTAL_ID_HERE>", formId: "FORM_ID_HERE", region: "na1" })
+  const hubSpot = useHubSpot({
+    portalId: import.meta.env.VITE_HS_PORTAL_ID,
+    formId: import.meta.env.VITE_HS_FORM_ID,
+  })
 
   return (
     <>
       <div>
-        <hubSpot.element />
+        <hubSpot.element
+          loader={<h2>Load...</h2>}
+        />
       </div>
     </>
   )

@@ -1,7 +1,2 @@
-"use strict";
-var __importDefault = (this && this.__importDefault) || function (mod) {
-    return (mod && mod.__esModule) ? mod : { "default": mod };
-};
-Object.defineProperty(exports, "__esModule", { value: true });
-const useHubSpot_1 = __importDefault(require("./src/useHubSpot"));
-exports.default = useHubSpot_1.default;
+import useHubSpot from "./src/useHubSpot";
+export default useHubSpot;
