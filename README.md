@@ -1,10 +1,15 @@
 # react-use-hubspot
+[![npm version](https://img.shields.io/npm/v/@skyhooks/react-use-hubspot.svg?style=flat-square)](https://www.npmjs.org/package/@skyhooks/react-use-hubspot)
+[![install size](https://packagephobia.com/badge?p=@skyhooks/react-use-hubspot)](https://packagephobia.com/result?p=@skyhooks/react-use-hubspot)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/@skyhooks/react-use-hubspot?style=flat-square)](https://bundlephobia.com/package/@skyhooks/react-use-hubspot)
+
 HubSpot integration for react.
 
 
 ## Usage
 
 [click here to see example for more details](https://github.com/skyhooks/react-use-hubspot/blob/main/example/src/App.tsx)
+
 
 ```ts
 function App() {
